@@ -1,0 +1,58 @@
+
+body{
+    margin: auto;
+    color:red;
+}
+
+.title {
+    position: relative;
+    background: linear-gradient(rgba(31, 36, 36, 0.5), rgba(0, 0, 0, 0.7)),
+        url(../images/justin-veenema-NH1d0xX6Ldk-unsplash.jpg) center/cover no-repeat;
+    /* min-width: 100%; */
+    height: 100vh;
+
+
+
+    .title-img {
+            position: relative;
+            z-index: -1;
+        }
+
+     .btn {
+        margin-top: 2rem;
+       }
+
+}
+
+#reviews{
+     margin-top:100px;
+   p{
+  max-width: 100%;
+  line-height:1.5;
+   }
+    .container-pets{
+        width:55%;
+        height:50%;
+        margin-top:0;
+
+
+        .parrot{
+            background:url(../SVG/parrot.svg) center/cover no-repeat;
+        }
+        .rat{
+            background:url(../SVG/rat.svg) center/cover no-repeat;
+        }
+        .cat{
+            background:url(../SVG/cat.svg) center/cover no-repeat;
+        }
+        .dog{
+            background:url(../SVG/dogy.svg) center/cover no-repeat;
+        }
+    }
+    .pets{
+       width:45%;
+       height:150px;
+       margin:5px;
+       border-radius: 10px;
+    }
+}
